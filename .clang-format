@@ -1,0 +1,15 @@
+BasedOnStyle: Google
+ColumnLimit: 80
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^"'
+    Priority: 1
+  - Regex: '.*'
+    Priority: 2
+IndentWidth: 2
+InsertBraces: true
+InsertNewlineAtEOF: true
+PointerAlignment: Right
+ReferenceAlignment: Right
+Standard: c++17
+UseTab: Never
